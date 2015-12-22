@@ -8,6 +8,19 @@
 
 #import <UIKit/UIKit.h>
 #import "UIViewController+MMDrawerController.h"
-@interface ThirdViewController : UIViewController
+#import "SWTableViewCell.h"
+#import "AddGroupViewController.h"
+#import "GroupTableViewCell.h"
+#import "DetialViewController.h"
+
+@interface ThirdViewController : UIViewController<UITableViewDataSource,UITableViewDelegate> {
+
+    NSMutableArray *groupArray;
+}
+
+
+//@property(nonatomic, strong)DetialTableViewController  *detailtableVC;
+@property(nonatomic, strong)UITableView   *grouptableView;
+@property(nonatomic, strong)AddGroupViewController *addGrouptableVC;
 
 @end

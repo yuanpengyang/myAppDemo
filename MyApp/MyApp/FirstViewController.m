@@ -86,7 +86,8 @@ static NSString *memorandumCellId = @"memorandumCellId";
     [self.imageView addSubview:self.tabView];
     self.tabView.delegate = self;
     self.tabView.dataSource = self;
-
+//    self.tabView.delaysContentTouches = NO;
+    
     UIButton *leftBtn = [UIButton buttonWithType:UIButtonTypeSystem];
     [leftBtn addTarget:self action:@selector(addAction) forControlEvents:UIControlEventTouchUpInside];
     [leftBtn setTitle:@"add" forState:UIControlStateNormal];
@@ -157,6 +158,19 @@ static NSString *memorandumCellId = @"memorandumCellId";
     cell.timeLabel.text = self.dateArray[indexPath.row];
     cell.backgroundColor = [UIColor clearColor];
     //NSLog(@"cell.content.text %@",cell.contentLabel.text);
+    
+    
+//    
+//    for (id obj in cell.subviews)
+//    {
+//        if ([NSStringFromClass([obj class])isEqualToString:@"UITableViewCellScrollView"])
+//        {
+//            UIScrollView *scroll = (UIScrollView *) obj;
+//            scroll.delaysContentTouches =NO;
+//            break;
+//        }
+//    }
+    
     
     return cell;
     

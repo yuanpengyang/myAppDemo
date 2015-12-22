@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="-58.666666666666664" y="265.06666666666666"/>
         </scene>
-        <!--Second View Controller-->
+        <!--天气预报-->
         <scene sceneID="yvz-sZ-xqw">
             <objects>
                 <viewController id="4bL-Wf-MwT" customClass="SecondViewController" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="ddQ-Nl-rdi"/>
+                    <navigationItem key="navigationItem" title="天气预报" id="ddQ-Nl-rdi"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tav-Mp-cHC" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

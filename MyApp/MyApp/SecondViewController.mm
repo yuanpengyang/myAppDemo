@@ -95,6 +95,7 @@ static NSString *weatherCellId = @"weatherCellId";
 
 - (void)getCityName:(NSNotification*)nofica{
     self.cityname = [nofica.userInfo objectForKey:@"city"];
+    
     [cityBtn setTitle:self.cityname forState:UIControlStateNormal];
   
     [self loadData];
@@ -220,10 +221,18 @@ static NSString *weatherCellId = @"weatherCellId";
                                
                                     self.weakmodel = [[weatherModel alloc]initWithDataDic:dic];
                                     
-                                    NSDictionary *todatDic = [NSDictionary dictionaryWithObjectsAndKeys:self.weakmodel,@"today", nil];
+                                    weatherLayoutFram *layoutfram = [[weatherLayoutFram alloc]init];
+                                    layoutfram.weathermodel = self.weakmodel;
                                     
-                                    [[NSNotificationCenter defaultCenter]postNotificationName:@"today" object:nil userInfo:todatDic];
                                     
+                                    NSDictionary *todatDic = [NSDictionary dictionaryWithObjectsAndKeys:layoutfram,@"today", nil];
+                                    
+                                    
+                                    
+                                    
+                                [[NSNotificationCenter defaultCenter]postNotificationName:@"today" object:nil userInfo:todatDic];
+                                   
+                                 
                                 //future----------------
                                     NSDictionary *futuredic = [dicresult objectForKey:@"future"];
                                    

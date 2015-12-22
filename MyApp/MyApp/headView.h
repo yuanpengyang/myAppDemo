@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 #import "weatherModel.h"
+#import "weatherLayoutFram.h"
+
+
+//@class weatherLayoutFram;
 
 @interface headView : UIView
 
@@ -24,5 +28,6 @@
 
 @property (nonatomic,strong) weatherModel *todaymodel;
 
+@property (nonatomic,strong) weatherLayoutFram *layoutfram;
 
 @end

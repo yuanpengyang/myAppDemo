@@ -38,6 +38,40 @@
 		E778E9D41C194FB100241BDC /* bg_home.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E778E9D21C194FB100241BDC /* bg_home.jpg */; };
 		E778E9D51C194FB100241BDC /* bg_home@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = E778E9D31C194FB100241BDC /* bg_home@2x.jpg */; };
 		E778E9D71C1950FC00241BDC /* mask_titlebar64@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E778E9D61C1950FC00241BDC /* mask_titlebar64@2x.png */; };
+		E7826CFF1C2797B30043755C /* RemindTimeTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7826CFD1C2797B30043755C /* RemindTimeTableViewCell.m */; };
+		E7826D001C2797B30043755C /* RemindTimeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7826CFE1C2797B30043755C /* RemindTimeTableViewCell.xib */; };
+		E7826D031C27A6C10043755C /* SetRemindTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7826D021C27A6C10043755C /* SetRemindTimeViewController.m */; };
+		E7826D0E1C27AD450043755C /* UWDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7826D0C1C27AD450043755C /* UWDatePickerView.m */; };
+		E7826D0F1C27AD450043755C /* UWDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7826D0D1C27AD450043755C /* UWDatePickerView.xib */; };
+		E7826D131C27CE510043755C /* RepeatTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7826D111C27CE510043755C /* RepeatTableViewCell.m */; };
+		E7826D141C27CE510043755C /* RepeatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7826D121C27CE510043755C /* RepeatTableViewCell.xib */; };
+		E7826D161C27F4C20043755C /* huitailang.png in Resources */ = {isa = PBXBuildFile; fileRef = E7826D151C27F4C10043755C /* huitailang.png */; };
+		E7A802F41C1E65E400282A1C /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A802EB1C1E65E400282A1C /* MMDrawerBarButtonItem.m */; };
+		E7A802F51C1E65E400282A1C /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A802ED1C1E65E400282A1C /* MMDrawerController.m */; };
+		E7A802F61C1E65E400282A1C /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A802EF1C1E65E400282A1C /* MMDrawerVisualState.m */; };
+		E7A802F71C1E65E400282A1C /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A802F11C1E65E400282A1C /* MMExampleDrawerVisualStateManager.m */; };
+		E7A802F81C1E65E400282A1C /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A802F31C1E65E400282A1C /* UIViewController+MMDrawerController.m */; };
+		E7A802FD1C1E95C500282A1C /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A802FB1C1E95C500282A1C /* SWTableViewCell.m */; };
+		E7A802FE1C1E95C500282A1C /* SWTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A802FC1C1E95C500282A1C /* SWTableViewCell.xib */; };
+		E7A803071C1E97BA00282A1C /* check@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A802FF1C1E97BA00282A1C /* check@2x.png */; };
+		E7A803081C1E97BA00282A1C /* clock@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A803001C1E97BA00282A1C /* clock@2x.png */; };
+		E7A803091C1E97BA00282A1C /* cross@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A803011C1E97BA00282A1C /* cross@2x.png */; };
+		E7A8030A1C1E97BA00282A1C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A803021C1E97BA00282A1C /* Default-568h@2x.png */; };
+		E7A8030B1C1E97BA00282A1C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A803031C1E97BA00282A1C /* Default.png */; };
+		E7A8030C1C1E97BA00282A1C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A803041C1E97BA00282A1C /* Default@2x.png */; };
+		E7A8030D1C1E97BA00282A1C /* list@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A803051C1E97BA00282A1C /* list@2x.png */; };
+		E7A8030E1C1E97BA00282A1C /* MI.png in Resources */ = {isa = PBXBuildFile; fileRef = E7A803061C1E97BA00282A1C /* MI.png */; };
+		E7A803171C1FAAD500282A1C /* weatherLayoutFram.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A803161C1FAAD500282A1C /* weatherLayoutFram.m */; };
+		E7A8032B1C213ED300282A1C /* GroupTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A803291C213ED300282A1C /* GroupTableViewCell.m */; };
+		E7A8032C1C213ED300282A1C /* GroupTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A8032A1C213ED300282A1C /* GroupTableViewCell.xib */; };
+		E7A8032F1C214BDF00282A1C /* DetialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A8032E1C214BDF00282A1C /* DetialViewController.m */; };
+		E7A803321C21593100282A1C /* AddGroupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A803311C21593100282A1C /* AddGroupViewController.m */; };
+		E7A803371C22511700282A1C /* AddDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A803351C22511700282A1C /* AddDetailViewController.m */; };
+		E7A803381C22511700282A1C /* AddDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A803361C22511700282A1C /* AddDetailViewController.xib */; };
+		E7A803411C22950200282A1C /* SetDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A803401C22950200282A1C /* SetDetailViewController.m */; };
+		E7A803451C22AA2100282A1C /* SetDetailNavController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7A803431C22AA2100282A1C /* SetDetailNavController.m */; };
+		E7A803461C22AA2100282A1C /* SetDetailNavController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7A803441C22AA2100282A1C /* SetDetailNavController.xib */; };
+		E7C448B21C23B35500C79D6C /* PriorityHeadView.m in Sources */ = {isa = PBXBuildFile; fileRef = E7C448B11C23B35500C79D6C /* PriorityHeadView.m */; };
 		E7E6EC831C0E872300D442A4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6EC821C0E872300D442A4 /* main.m */; };
 		E7E6EC861C0E872300D442A4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6EC851C0E872300D442A4 /* AppDelegate.m */; };
 		E7E6EC8E1C0E872300D442A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7E6EC8D1C0E872300D442A4 /* Assets.xcassets */; };
@@ -72,11 +106,6 @@
 		E7E6ED2B1C0EAFC700D442A4 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6ED291C0EAFC700D442A4 /* FourthViewController.m */; };
 		E7E6ED341C0EB70200D442A4 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6ED321C0EB70200D442A4 /* RightViewController.m */; };
 		E7E6ED351C0EB70200D442A4 /* RightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E7E6ED331C0EB70200D442A4 /* RightViewController.xib */; };
-		E7E6ED411C0EB8D500D442A4 /* MMDrawerBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6ED381C0EB8D500D442A4 /* MMDrawerBarButtonItem.m */; };
-		E7E6ED421C0EB8D500D442A4 /* MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6ED3A1C0EB8D500D442A4 /* MMDrawerController.m */; };
-		E7E6ED431C0EB8D500D442A4 /* MMDrawerVisualState.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6ED3C1C0EB8D500D442A4 /* MMDrawerVisualState.m */; };
-		E7E6ED441C0EB8D500D442A4 /* MMExampleDrawerVisualStateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6ED3E1C0EB8D500D442A4 /* MMExampleDrawerVisualStateManager.m */; };
-		E7E6ED451C0EB8D500D442A4 /* UIViewController+MMDrawerController.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E6ED401C0EB8D500D442A4 /* UIViewController+MMDrawerController.m */; };
 		E7E6ED4C1C0EC94000D442A4 /* mask_detailbar.png in Resources */ = {isa = PBXBuildFile; fileRef = E7E6ED4B1C0EC94000D442A4 /* mask_detailbar.png */; };
 /* End PBXBuildFile section */
 
@@ -140,6 +169,58 @@
 		E778E9D21C194FB100241BDC /* bg_home.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = bg_home.jpg; path = MyApp/bg_home.jpg; sourceTree = SOURCE_ROOT; };
 		E778E9D31C194FB100241BDC /* bg_home@2x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "bg_home@2x.jpg"; path = "MyApp/bg_home@2x.jpg"; sourceTree = SOURCE_ROOT; };
 		E778E9D61C1950FC00241BDC /* mask_titlebar64@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mask_titlebar64@2x.png"; path = "MyApp/mask_titlebar64@2x.png"; sourceTree = SOURCE_ROOT; };
+		E7826CFC1C2797B30043755C /* RemindTimeTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindTimeTableViewCell.h; sourceTree = "<group>"; };
+		E7826CFD1C2797B30043755C /* RemindTimeTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindTimeTableViewCell.m; sourceTree = "<group>"; };
+		E7826CFE1C2797B30043755C /* RemindTimeTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemindTimeTableViewCell.xib; sourceTree = "<group>"; };
+		E7826D011C27A6C10043755C /* SetRemindTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetRemindTimeViewController.h; sourceTree = "<group>"; };
+		E7826D021C27A6C10043755C /* SetRemindTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetRemindTimeViewController.m; sourceTree = "<group>"; };
+		E7826D0B1C27AD450043755C /* UWDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UWDatePickerView.h; sourceTree = "<group>"; };
+		E7826D0C1C27AD450043755C /* UWDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UWDatePickerView.m; sourceTree = "<group>"; };
+		E7826D0D1C27AD450043755C /* UWDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UWDatePickerView.xib; sourceTree = "<group>"; };
+		E7826D101C27CE510043755C /* RepeatTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RepeatTableViewCell.h; sourceTree = "<group>"; };
+		E7826D111C27CE510043755C /* RepeatTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RepeatTableViewCell.m; sourceTree = "<group>"; };
+		E7826D121C27CE510043755C /* RepeatTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RepeatTableViewCell.xib; sourceTree = "<group>"; };
+		E7826D151C27F4C10043755C /* huitailang.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = huitailang.png; sourceTree = "<group>"; };
+		E7A802EA1C1E65E400282A1C /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
+		E7A802EB1C1E65E400282A1C /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
+		E7A802EC1C1E65E400282A1C /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
+		E7A802ED1C1E65E400282A1C /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
+		E7A802EE1C1E65E400282A1C /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
+		E7A802EF1C1E65E400282A1C /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
+		E7A802F01C1E65E400282A1C /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
+		E7A802F11C1E65E400282A1C /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
+		E7A802F21C1E65E400282A1C /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
+		E7A802F31C1E65E400282A1C /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
+		E7A802FA1C1E95C500282A1C /* SWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWTableViewCell.h; sourceTree = "<group>"; };
+		E7A802FB1C1E95C500282A1C /* SWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWTableViewCell.m; sourceTree = "<group>"; };
+		E7A802FC1C1E95C500282A1C /* SWTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SWTableViewCell.xib; sourceTree = "<group>"; };
+		E7A802FF1C1E97BA00282A1C /* check@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "check@2x.png"; sourceTree = "<group>"; };
+		E7A803001C1E97BA00282A1C /* clock@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "clock@2x.png"; sourceTree = "<group>"; };
+		E7A803011C1E97BA00282A1C /* cross@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "cross@2x.png"; sourceTree = "<group>"; };
+		E7A803021C1E97BA00282A1C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E7A803031C1E97BA00282A1C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E7A803041C1E97BA00282A1C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E7A803051C1E97BA00282A1C /* list@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "list@2x.png"; sourceTree = "<group>"; };
+		E7A803061C1E97BA00282A1C /* MI.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = MI.png; sourceTree = "<group>"; };
+		E7A803151C1FAAD500282A1C /* weatherLayoutFram.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = weatherLayoutFram.h; sourceTree = "<group>"; };
+		E7A803161C1FAAD500282A1C /* weatherLayoutFram.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = weatherLayoutFram.m; sourceTree = "<group>"; };
+		E7A803281C213ED300282A1C /* GroupTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupTableViewCell.h; sourceTree = "<group>"; };
+		E7A803291C213ED300282A1C /* GroupTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupTableViewCell.m; sourceTree = "<group>"; };
+		E7A8032A1C213ED300282A1C /* GroupTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GroupTableViewCell.xib; sourceTree = "<group>"; };
+		E7A8032D1C214BDF00282A1C /* DetialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetialViewController.h; sourceTree = "<group>"; };
+		E7A8032E1C214BDF00282A1C /* DetialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetialViewController.m; sourceTree = "<group>"; };
+		E7A803301C21593100282A1C /* AddGroupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddGroupViewController.h; sourceTree = "<group>"; };
+		E7A803311C21593100282A1C /* AddGroupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddGroupViewController.m; sourceTree = "<group>"; };
+		E7A803341C22511700282A1C /* AddDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddDetailViewController.h; sourceTree = "<group>"; };
+		E7A803351C22511700282A1C /* AddDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddDetailViewController.m; sourceTree = "<group>"; };
+		E7A803361C22511700282A1C /* AddDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddDetailViewController.xib; sourceTree = "<group>"; };
+		E7A8033F1C22950200282A1C /* SetDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetDetailViewController.h; sourceTree = "<group>"; };
+		E7A803401C22950200282A1C /* SetDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetDetailViewController.m; sourceTree = "<group>"; };
+		E7A803421C22AA2100282A1C /* SetDetailNavController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetDetailNavController.h; sourceTree = "<group>"; };
+		E7A803431C22AA2100282A1C /* SetDetailNavController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetDetailNavController.m; sourceTree = "<group>"; };
+		E7A803441C22AA2100282A1C /* SetDetailNavController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetDetailNavController.xib; sourceTree = "<group>"; };
+		E7C448B01C23B35500C79D6C /* PriorityHeadView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PriorityHeadView.h; sourceTree = "<group>"; };
+		E7C448B11C23B35500C79D6C /* PriorityHeadView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PriorityHeadView.m; sourceTree = "<group>"; };
 		E7E6EC7E1C0E872300D442A4 /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E7E6EC821C0E872300D442A4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E7E6EC841C0E872300D442A4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -188,16 +269,6 @@
 		E7E6ED311C0EB70200D442A4 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
 		E7E6ED321C0EB70200D442A4 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
 		E7E6ED331C0EB70200D442A4 /* RightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RightViewController.xib; sourceTree = "<group>"; };
-		E7E6ED371C0EB8D500D442A4 /* MMDrawerBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerBarButtonItem.h; sourceTree = "<group>"; };
-		E7E6ED381C0EB8D500D442A4 /* MMDrawerBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerBarButtonItem.m; sourceTree = "<group>"; };
-		E7E6ED391C0EB8D500D442A4 /* MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerController.h; sourceTree = "<group>"; };
-		E7E6ED3A1C0EB8D500D442A4 /* MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerController.m; sourceTree = "<group>"; };
-		E7E6ED3B1C0EB8D500D442A4 /* MMDrawerVisualState.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMDrawerVisualState.h; sourceTree = "<group>"; };
-		E7E6ED3C1C0EB8D500D442A4 /* MMDrawerVisualState.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMDrawerVisualState.m; sourceTree = "<group>"; };
-		E7E6ED3D1C0EB8D500D442A4 /* MMExampleDrawerVisualStateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMExampleDrawerVisualStateManager.h; sourceTree = "<group>"; };
-		E7E6ED3E1C0EB8D500D442A4 /* MMExampleDrawerVisualStateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMExampleDrawerVisualStateManager.m; sourceTree = "<group>"; };
-		E7E6ED3F1C0EB8D500D442A4 /* UIViewController+MMDrawerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+MMDrawerController.h"; sourceTree = "<group>"; };
-		E7E6ED401C0EB8D500D442A4 /* UIViewController+MMDrawerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+MMDrawerController.m"; sourceTree = "<group>"; };
 		E7E6ED4B1C0EC94000D442A4 /* mask_detailbar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mask_detailbar.png; path = MyApp/mask_detailbar.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -250,6 +321,8 @@
 				E75E28E81C16722700D19897 /* weatherModel.m */,
 				E75E28FC1C16CD9000D19897 /* futureModel.h */,
 				E75E28FD1C16CD9000D19897 /* futureModel.m */,
+				E7A803151C1FAAD500282A1C /* weatherLayoutFram.h */,
+				E7A803161C1FAAD500282A1C /* weatherLayoutFram.m */,
 			);
 			name = model;
 			sourceTree = "<group>";
@@ -264,6 +337,55 @@
 				E75E28FA1C16B4F900D19897 /* headView.m */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		E7826D0A1C27AD450043755C /* UWDatePickerView */ = {
+			isa = PBXGroup;
+			children = (
+				E7826D0B1C27AD450043755C /* UWDatePickerView.h */,
+				E7826D0C1C27AD450043755C /* UWDatePickerView.m */,
+				E7826D0D1C27AD450043755C /* UWDatePickerView.xib */,
+			);
+			path = UWDatePickerView;
+			sourceTree = "<group>";
+		};
+		E7A802E91C1E65E400282A1C /* MMDrawerController */ = {
+			isa = PBXGroup;
+			children = (
+				E7A802EA1C1E65E400282A1C /* MMDrawerBarButtonItem.h */,
+				E7A802EB1C1E65E400282A1C /* MMDrawerBarButtonItem.m */,
+				E7A802EC1C1E65E400282A1C /* MMDrawerController.h */,
+				E7A802ED1C1E65E400282A1C /* MMDrawerController.m */,
+				E7A802EE1C1E65E400282A1C /* MMDrawerVisualState.h */,
+				E7A802EF1C1E65E400282A1C /* MMDrawerVisualState.m */,
+				E7A802F01C1E65E400282A1C /* MMExampleDrawerVisualStateManager.h */,
+				E7A802F11C1E65E400282A1C /* MMExampleDrawerVisualStateManager.m */,
+				E7A802F21C1E65E400282A1C /* UIViewController+MMDrawerController.h */,
+				E7A802F31C1E65E400282A1C /* UIViewController+MMDrawerController.m */,
+			);
+			path = MMDrawerController;
+			sourceTree = "<group>";
+		};
+		E7A802F91C1E957800282A1C /* view */ = {
+			isa = PBXGroup;
+			children = (
+				E7826D0A1C27AD450043755C /* UWDatePickerView */,
+				E7A802FA1C1E95C500282A1C /* SWTableViewCell.h */,
+				E7A802FB1C1E95C500282A1C /* SWTableViewCell.m */,
+				E7A802FC1C1E95C500282A1C /* SWTableViewCell.xib */,
+				E7A803281C213ED300282A1C /* GroupTableViewCell.h */,
+				E7A803291C213ED300282A1C /* GroupTableViewCell.m */,
+				E7A8032A1C213ED300282A1C /* GroupTableViewCell.xib */,
+				E7C448B01C23B35500C79D6C /* PriorityHeadView.h */,
+				E7C448B11C23B35500C79D6C /* PriorityHeadView.m */,
+				E7826CFC1C2797B30043755C /* RemindTimeTableViewCell.h */,
+				E7826CFD1C2797B30043755C /* RemindTimeTableViewCell.m */,
+				E7826CFE1C2797B30043755C /* RemindTimeTableViewCell.xib */,
+				E7826D101C27CE510043755C /* RepeatTableViewCell.h */,
+				E7826D111C27CE510043755C /* RepeatTableViewCell.m */,
+				E7826D121C27CE510043755C /* RepeatTableViewCell.xib */,
+			);
+			name = view;
 			sourceTree = "<group>";
 		};
 		E7E6EC751C0E872300D442A4 = {
@@ -297,8 +419,8 @@
 		E7E6EC801C0E872300D442A4 /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				E7A802E91C1E65E400282A1C /* MMDrawerController */,
 				E707DA7A1C0FF24B00959EB2 /* Category */,
-				E7E6ED361C0EB8D500D442A4 /* MMDrawerController */,
 				E7E6ECD01C0E8CC800D442A4 /* Image */,
 				E7E6EC841C0E872300D442A4 /* AppDelegate.h */,
 				E7E6EC851C0E872300D442A4 /* AppDelegate.m */,
@@ -350,6 +472,15 @@
 		E7E6ECD01C0E8CC800D442A4 /* Image */ = {
 			isa = PBXGroup;
 			children = (
+				E7826D151C27F4C10043755C /* huitailang.png */,
+				E7A802FF1C1E97BA00282A1C /* check@2x.png */,
+				E7A803001C1E97BA00282A1C /* clock@2x.png */,
+				E7A803011C1E97BA00282A1C /* cross@2x.png */,
+				E7A803021C1E97BA00282A1C /* Default-568h@2x.png */,
+				E7A803031C1E97BA00282A1C /* Default.png */,
+				E7A803041C1E97BA00282A1C /* Default@2x.png */,
+				E7A803051C1E97BA00282A1C /* list@2x.png */,
+				E7A803061C1E97BA00282A1C /* MI.png */,
 				E7E6ED4B1C0EC94000D442A4 /* mask_detailbar.png */,
 				E7E6ECD11C0E8CC800D442A4 /* tabbar_0.png */,
 				E7E6ECD21C0E8CC800D442A4 /* tabbar_0@2x.png */,
@@ -426,6 +557,21 @@
 				E7E6ED211C0EAF9B00D442A4 /* ThirdViewController.m */,
 				E7E6ED221C0EAF9B00D442A4 /* ThirdViewController.xib */,
 				E75FE6FC1C180D21001F9A87 /* Third.Storyboard */,
+				E7A8032D1C214BDF00282A1C /* DetialViewController.h */,
+				E7A8032E1C214BDF00282A1C /* DetialViewController.m */,
+				E7A803301C21593100282A1C /* AddGroupViewController.h */,
+				E7A803311C21593100282A1C /* AddGroupViewController.m */,
+				E7A803341C22511700282A1C /* AddDetailViewController.h */,
+				E7A803351C22511700282A1C /* AddDetailViewController.m */,
+				E7A803361C22511700282A1C /* AddDetailViewController.xib */,
+				E7A803421C22AA2100282A1C /* SetDetailNavController.h */,
+				E7A803431C22AA2100282A1C /* SetDetailNavController.m */,
+				E7A803441C22AA2100282A1C /* SetDetailNavController.xib */,
+				E7A8033F1C22950200282A1C /* SetDetailViewController.h */,
+				E7A803401C22950200282A1C /* SetDetailViewController.m */,
+				E7826D011C27A6C10043755C /* SetRemindTimeViewController.h */,
+				E7826D021C27A6C10043755C /* SetRemindTimeViewController.m */,
+				E7A802F91C1E957800282A1C /* view */,
 			);
 			name = Third;
 			sourceTree = "<group>";
@@ -458,24 +604,6 @@
 				E7E6ED331C0EB70200D442A4 /* RightViewController.xib */,
 			);
 			name = rightVC;
-			sourceTree = "<group>";
-		};
-		E7E6ED361C0EB8D500D442A4 /* MMDrawerController */ = {
-			isa = PBXGroup;
-			children = (
-				E7E6ED371C0EB8D500D442A4 /* MMDrawerBarButtonItem.h */,
-				E7E6ED381C0EB8D500D442A4 /* MMDrawerBarButtonItem.m */,
-				E7E6ED391C0EB8D500D442A4 /* MMDrawerController.h */,
-				E7E6ED3A1C0EB8D500D442A4 /* MMDrawerController.m */,
-				E7E6ED3B1C0EB8D500D442A4 /* MMDrawerVisualState.h */,
-				E7E6ED3C1C0EB8D500D442A4 /* MMDrawerVisualState.m */,
-				E7E6ED3D1C0EB8D500D442A4 /* MMExampleDrawerVisualStateManager.h */,
-				E7E6ED3E1C0EB8D500D442A4 /* MMExampleDrawerVisualStateManager.m */,
-				E7E6ED3F1C0EB8D500D442A4 /* UIViewController+MMDrawerController.h */,
-				E7E6ED401C0EB8D500D442A4 /* UIViewController+MMDrawerController.m */,
-			);
-			name = MMDrawerController;
-			path = ../../yyp/weibo/HWWeibo/HWWeibo/Common/MMDrawerController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -545,6 +673,7 @@
 				TargetAttributes = {
 					E7E6EC7D1C0E872300D442A4 = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 4K4XZUDSC6;
 					};
 					E7E6EC961C0E872300D442A4 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -581,39 +710,55 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7826D161C27F4C20043755C /* huitailang.png in Resources */,
 				E75E28F51C16864800D19897 /* weatherTableViewCell.xib in Resources */,
 				E7E6EC911C0E872300D442A4 /* LaunchScreen.storyboard in Resources */,
 				E7E6ECE51C0E8CC800D442A4 /* tabbar_mainbtn.png in Resources */,
 				E75FE6F91C180CF1001F9A87 /* First.Storyboard in Resources */,
 				E707DA791C0FEEA700959EB2 /* EditViewController.xib in Resources */,
+				E7A8030A1C1E97BA00282A1C /* Default-568h@2x.png in Resources */,
+				E7A803081C1E97BA00282A1C /* clock@2x.png in Resources */,
 				E7E6ECDE1C0E8CC800D442A4 /* tabbar_0@2x.png in Resources */,
 				E7E6EC8E1C0E872300D442A4 /* Assets.xcassets in Resources */,
+				E7826D0F1C27AD450043755C /* UWDatePickerView.xib in Resources */,
+				E7A8030E1C1E97BA00282A1C /* MI.png in Resources */,
 				E7E6ED121C0EA01000D442A4 /* tabbarViewController.xib in Resources */,
+				E7826D141C27CE510043755C /* RepeatTableViewCell.xib in Resources */,
 				E778E9CD1C194BDB00241BDC /* bg_compose@2x.jpg in Resources */,
 				E7E6ECDD1C0E8CC800D442A4 /* tabbar_0.png in Resources */,
 				E707DA851C101EE500959EB2 /* Fourth.Storyboard in Resources */,
 				E778E9D01C194BF200241BDC /* mask_bg.jpg in Resources */,
 				E7E6ECE41C0E8CC800D442A4 /* tabbar_4@2x.png in Resources */,
+				E7A803461C22AA2100282A1C /* SetDetailNavController.xib in Resources */,
 				E75FE6F71C17F31C001F9A87 /* citydict.plist in Resources */,
+				E7A8030C1C1E97BA00282A1C /* Default@2x.png in Resources */,
 				E7E6ECE61C0E8CC800D442A4 /* tabbar_mainbtn@2x.png in Resources */,
 				E707DA741C0FD96100959EB2 /* MemorandumCell.xib in Resources */,
+				E7826D001C2797B30043755C /* RemindTimeTableViewCell.xib in Resources */,
 				E7E6ECE21C0E8CC800D442A4 /* tabbar_3@2x.png in Resources */,
 				E7E6ECE81C0E8CC800D442A4 /* tabbar_mainbtn_bg@2x.png in Resources */,
 				E75FE6FD1C180D21001F9A87 /* Third.Storyboard in Resources */,
+				E7A803381C22511700282A1C /* AddDetailViewController.xib in Resources */,
 				E7E6ED241C0EAF9B00D442A4 /* ThirdViewController.xib in Resources */,
 				E7E6ED091C0E9C9500D442A4 /* Info.plist in Resources */,
+				E7A802FE1C1E95C500282A1C /* SWTableViewCell.xib in Resources */,
 				E7E6ECE31C0E8CC800D442A4 /* tabbar_4.png in Resources */,
+				E7A803071C1E97BA00282A1C /* check@2x.png in Resources */,
 				E778E9D71C1950FC00241BDC /* mask_titlebar64@2x.png in Resources */,
 				E7E6ED4C1C0EC94000D442A4 /* mask_detailbar.png in Resources */,
 				E7E6ED171C0EA0D200D442A4 /* FirstViewController.xib in Resources */,
+				E7A8030B1C1E97BA00282A1C /* Default.png in Resources */,
+				E7A8030D1C1E97BA00282A1C /* list@2x.png in Resources */,
 				E7E6ED351C0EB70200D442A4 /* RightViewController.xib in Resources */,
 				E7E6ECE71C0E8CC800D442A4 /* tabbar_mainbtn_bg.png in Resources */,
 				E778E9D41C194FB100241BDC /* bg_home.jpg in Resources */,
 				E75FE6FB1C180D0F001F9A87 /* Second.Storyboard in Resources */,
+				E7A8032C1C213ED300282A1C /* GroupTableViewCell.xib in Resources */,
 				E778E9D51C194FB100241BDC /* bg_home@2x.jpg in Resources */,
 				E778E9CC1C194BDB00241BDC /* bg_compose.jpg in Resources */,
 				E7E6ED1F1C0EA10600D442A4 /* SecondViewController.xib in Resources */,
 				E7E6ECE11C0E8CC800D442A4 /* tabbar_3.png in Resources */,
+				E7A803091C1E97BA00282A1C /* cross@2x.png in Resources */,
 				E75FE6F51C17EEAE001F9A87 /* CityViewController.xib in Resources */,
 				E778E9D11C194BF200241BDC /* mask_bg@2x.jpg in Resources */,
 				E7E6ECDF1C0E8CC800D442A4 /* tabbar_1.png in Resources */,
@@ -642,31 +787,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7A803451C22AA2100282A1C /* SetDetailNavController.m in Sources */,
 				E707DA731C0FD96100959EB2 /* MemorandumCell.m in Sources */,
-				E7E6ED431C0EB8D500D442A4 /* MMDrawerVisualState.m in Sources */,
+				E7A802FD1C1E95C500282A1C /* SWTableViewCell.m in Sources */,
+				E7A802F71C1E65E400282A1C /* MMExampleDrawerVisualStateManager.m in Sources */,
 				E7E6ED2B1C0EAFC700D442A4 /* FourthViewController.m in Sources */,
 				E7E6EC861C0E872300D442A4 /* AppDelegate.m in Sources */,
+				E7A803171C1FAAD500282A1C /* weatherLayoutFram.m in Sources */,
 				E7E6EC831C0E872300D442A4 /* main.m in Sources */,
-				E7E6ED421C0EB8D500D442A4 /* MMDrawerController.m in Sources */,
+				E7A803321C21593100282A1C /* AddGroupViewController.m in Sources */,
+				E7826D0E1C27AD450043755C /* UWDatePickerView.m in Sources */,
 				E75E28E91C16722700D19897 /* weatherModel.m in Sources */,
 				E75E28FB1C16B4F900D19897 /* headView.m in Sources */,
 				E7E6ED231C0EAF9B00D442A4 /* ThirdViewController.m in Sources */,
 				E75E28D21C12DDC000D19897 /* AddNoteController.m in Sources */,
 				E7E6ED111C0EA01000D442A4 /* tabbarViewController.m in Sources */,
 				E75FE6EE1C17C9EA001F9A87 /* getKeyMethod.m in Sources */,
+				E7826D131C27CE510043755C /* RepeatTableViewCell.m in Sources */,
+				E7A8032B1C213ED300282A1C /* GroupTableViewCell.m in Sources */,
+				E7826CFF1C2797B30043755C /* RemindTimeTableViewCell.m in Sources */,
 				E707DA801C0FF44F00959EB2 /* UIView+UIViewController.m in Sources */,
 				E7E6ED341C0EB70200D442A4 /* RightViewController.m in Sources */,
+				E7A802F81C1E65E400282A1C /* UIViewController+MMDrawerController.m in Sources */,
+				E7A803411C22950200282A1C /* SetDetailViewController.m in Sources */,
 				E7E6ED1E1C0EA10600D442A4 /* SecondViewController.mm in Sources */,
+				E7A8032F1C214BDF00282A1C /* DetialViewController.m in Sources */,
+				E7A802F61C1E65E400282A1C /* MMDrawerVisualState.m in Sources */,
+				E7A802F41C1E65E400282A1C /* MMDrawerBarButtonItem.m in Sources */,
+				E7826D031C27A6C10043755C /* SetRemindTimeViewController.m in Sources */,
+				E7A803371C22511700282A1C /* AddDetailViewController.m in Sources */,
+				E7A802F51C1E65E400282A1C /* MMDrawerController.m in Sources */,
+				E7C448B21C23B35500C79D6C /* PriorityHeadView.m in Sources */,
 				E707DA781C0FEEA700959EB2 /* EditViewController.m in Sources */,
-				E7E6ED451C0EB8D500D442A4 /* UIViewController+MMDrawerController.m in Sources */,
 				E75E28F41C16864800D19897 /* weatherTableViewCell.m in Sources */,
-				E7E6ED411C0EB8D500D442A4 /* MMDrawerBarButtonItem.m in Sources */,
 				E7E6ECFD1C0E8EF400D442A4 /* TabbarView.m in Sources */,
 				E7E6ED161C0EA0D200D442A4 /* FirstViewController.m in Sources */,
 				E75E28E51C1671CA00D19897 /* BaseModel.m in Sources */,
 				E75FE6F41C17EEAE001F9A87 /* CityViewController.m in Sources */,
 				E75E28FE1C16CD9000D19897 /* futureModel.m in Sources */,
-				E7E6ED441C0EB8D500D442A4 /* MMExampleDrawerVisualStateManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -798,13 +956,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MyApp",
 				);
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = gerenapp78558912;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -814,13 +975,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/MyApp",
 				);
 				INFOPLIST_FILE = MyApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.test.MyApp;
+				PRODUCT_BUNDLE_IDENTIFIER = gerenapp78558912;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;

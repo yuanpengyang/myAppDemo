@@ -19,14 +19,19 @@
 
 //AFNETWORKING  MJEXTENSION/JSONModel
 
+
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+
     
-    
+//    NSMutableArray *array = [[NSMutableArray alloc]init];
+//    [[NSUserDefaults standardUserDefaults]setObject:array forKey:@"group"];
+//    
     
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
     [self.window makeKeyAndVisible];
     
- 
+    self.window.backgroundColor = [UIColor whiteColor];
     
     
     
@@ -71,6 +76,30 @@
     return YES;
 }
 
+- (void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification *)notification {
+   // NSLog(@"noti:%@",notification);
+    
+    // 这里真实需要处理交互的地方
+    // 获取通知所带的数据
+    NSString *notMess = [notification.userInfo objectForKey:@"key"];
+    UIAlertView *alert = [[UIAlertView alloc]
+                                              initWithTitle:@"项目提醒"
+                                                    message:notMess
+                                                   delegate:nil
+                                          cancelButtonTitle:@"OK"
+                                          otherButtonTitles:nil];
+    [alert show];
+    
+    // 更新显示的徽章个数
+    NSInteger badge = [UIApplication sharedApplication].applicationIconBadgeNumber;
+    badge--;
+    badge = badge >= 0 ? badge : 0;
+    [UIApplication sharedApplication].applicationIconBadgeNumber = badge;
+    
+    // 在不需要再推送时，可以取消推送
+//    [HomeViewController cancelLocalNotificationWithKey:@"key"];
+
+}
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
     // Use this method to pause ongoing tasks, disable timers, and throttle down OpenGL ES frame rates. Games should use this method to pause the game.

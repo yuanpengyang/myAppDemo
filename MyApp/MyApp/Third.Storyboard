@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="-61.333333333333336" y="284.94666666666666"/>
         </scene>
-        <!--Third View Controller-->
+        <!--项目提醒-->
         <scene sceneID="i8l-gb-OaD">
             <objects>
                 <viewController id="Gq3-XX-JnA" customClass="ThirdViewController" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="2xE-at-1Be"/>
+                    <navigationItem key="navigationItem" title="项目提醒" id="2xE-at-1Be"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9F3-Gg-lAX" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

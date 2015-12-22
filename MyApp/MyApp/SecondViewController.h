@@ -14,10 +14,12 @@
 #import "getKeyMethod.h"
 #import "CityViewController.h"
 #import "UIViewController+MMDrawerController.h"
+#import "weatherLayoutFram.h"
 @interface SecondViewController : UIViewController<UITableViewDelegate,UITableViewDataSource>{
 
     headView *headview;
     UIButton *cityBtn;
+   
 
 }
 

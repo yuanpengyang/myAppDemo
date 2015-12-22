@@ -21,7 +21,7 @@
             </objects>
             <point key="canvasLocation" x="19" y="240"/>
         </scene>
-        <!--First View Controller-->
+        <!--备忘录-->
         <scene sceneID="5gi-KC-wkj">
             <objects>
                 <viewController id="xSt-Av-Qmt" customClass="FirstViewController" sceneMemberID="viewController">
@@ -34,7 +34,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
-                    <navigationItem key="navigationItem" id="gKD-7y-i7F"/>
+                    <navigationItem key="navigationItem" title="备忘录" id="gKD-7y-i7F"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="M45-Mo-gZZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
